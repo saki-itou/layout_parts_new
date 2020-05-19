@@ -2,4 +2,24 @@
 
 /* 回答はここに書いてね */
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.q2 {
+  width: 900px;
+  margin: 0px auto;
+  padding: 20px;
+  background-color: #eff3f4;
+}
+
+.p {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+
+
 /* 回答はここに書いてね */
