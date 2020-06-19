@@ -10,16 +10,29 @@
 
 .q2 {
   width: 900px;
-  margin: 0px auto;
+  margin: 0 auto;
   padding: 20px;
   background-color: #eff3f4;
 }
 
-.p {
-  font-size: 18px;
-  line-height: 22px;
+.q2_contentbox {
+  margin-bottom: 10px;
 }
 
+.q2_contentbox.left {
+  float: left;
+  margin-right: 20px;
+}
 
+.q2_text {
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
+}
+
+.q2_contentbox.right {
+  float: right;
+  margin-left: 20px;
+}
 
 /* 回答はここに書いてね */

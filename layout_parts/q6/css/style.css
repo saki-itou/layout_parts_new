@@ -2,4 +2,76 @@
 
 /* 回答はここに書いてね */
 
+.q6--horizontal .q6__box__text {
+  padding: 10px 0;
+  width: 90px;
+  background-color: #e6f2ff;
+}
+
+.q6__box.text-align .q6__box__center {
+  text-align: center;
+}
+
+.q6__box.text-align .q6__box__text {
+  display: inline-block;
+}
+
+.q6__box.margin .q6__box__text {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*---Q6-2 天地左右中央寄せ---*/
+
+.q6--around.table {
+  display: table;
+}
+
+.q6--around.table .q6__box {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.q6--around.table .q6__box__text {
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.q6--around.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.q6--around.flex .q6__box__text {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.q6--position .is-stable {
+  position: relative;
+}
+
+.q6__box.is-stable .q6__box__inner {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.q6__box.is-flexible {
+  position: relative;
+}
+
+.q6__box.is-flexible .q6__box__inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* 回答はここに書いてね */
