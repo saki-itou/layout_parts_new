@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.q5 {
+.q5_content {
   width: 500px;
   height: 500px;
   margin: 0 auto;
@@ -19,63 +19,63 @@
   position: absolute;
 }
 
-.q5_box.pink {
+.pink {
   z-index: 1;
   background-color: #ffefd3;
   top: 40px;
   left: 200px;
 }
 
-.q5_box.blue {
+.blue {
   z-index: 2;
   background-color: #7084de;
   top: 120px;
   right: 120px;
 }
 
-.q5_box.gray {
+.gray {
   z-index: 3;
   background-color: #d0ecea;
   top: 200px;
   right: 40px;
 }
 
-.q5_box.brown {
+.brown {
   z-index: 4;
   background-color: #8b7a5b;
   bottom: 120px;
   right: 120px;
 }
 
-.q5_box.green {
+.green {
   z-index: 5;
   background-color: #9fd6d2;
   bottom: 40px;
   left: 200px;
 }
 
-.q5_box.white {
+.white {
   z-index: 6;
   background-color: #fffee4;
   bottom: 120px;
   left: 120px;
 }
 
-.q5_box.orange {
+.orange {
   z-index: 7;
   background-color: #deae70;
   top: 200px;
   left: 40px;
 }
 
-.q5_box.red {
+.red {
   z-index: 8;
   background-color: #de70cf;
   top: 120px;
   left: 120px;
 }
 
-.q5_box.red::after {
+.red::after {
   content: "";
   z-index: 9;
   position: absolute;
@@ -86,7 +86,7 @@
   background-color: #ffefd3;
 }
 
-.q5_box.navy {
+.navy {
   z-index: 10;
   top: 10px;
   left: 10px;

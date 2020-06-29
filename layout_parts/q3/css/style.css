@@ -8,20 +8,13 @@
   width: 100%;
 }
 
-.q3_table th, td {
+.q3_table th, .q3_table td {
   border: solid #dedede 1px;
   padding: 10px;
 }
 
-.q3_table tr:last-child {
+.q3_table tfoot:last-child {
   border-top: dashed #000 2px;
-}
-
-.q3_table td:first-child {
-  color: #fff;
-  background-color: #2244aa;
-  font-size: 18px;
-  line-height: 26px;
 }
 
 .q3_table th {
@@ -36,7 +29,7 @@
   line-height: 22px;
 }
 
-.q3_table tr:nth-child(odd) {
+.q3_table tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
