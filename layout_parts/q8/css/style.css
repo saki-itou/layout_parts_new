@@ -2,4 +2,51 @@
 
 /* 回答はここに書いてね */
 
+.q8_imgbox {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  cursor: pointer;
+  width: 500px;
+  height: 333px;
+}
+
+.q8_imgbox_move {
+  transition: all 0.5s;
+}
+
+.q8_imgbox_move:hover {
+  transform: scale(1.5);
+  transition: all 0.5s;
+}
+
+.q8_imgbox_up {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+
+.q8_imgbox_up:hover {
+  transition: all 0.5s;
+}
+
+.q8_imgbox_up_text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  word-break: break-all;
+  color: #FFF;
+}
+
+
+
+
+
 /* 回答はここに書いてね */
