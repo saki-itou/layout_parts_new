@@ -8,47 +8,47 @@
   clear: both;
 }
 
-.q7 .q7__box {
+.q7 .side {
   width: 225px;
 }
 
-.q7--float .q7__box {
+.q7--float .side {
   float: left;
   margin-left: 50px;
   box-sizing: border-box;
   font-size: 16px;
 }
 
-.q7--float .q7__box:first-child {
+.q7--float .side:first-child {
   margin-left: 0;
 }
 
 
-/* Q7-2 tableでの横並び */
+/* Q7-2tableでの横並び */
 
-.q7--table .q7__inner {
+.q7--table .sec {
   display: table;
 }
 
-.q7--table .q7__box {
+.q7--table .side {
   padding-left: 50px;
   font-size: 16px;
   display: table-cell;
   vertical-align: middle;
 }
 
-.q7--table .q7__box:first-child {
+.q7--table .side:first-child {
   padding-left: 0;
 }
 
 
 /* Q7-3 inline-blockでの横並び */
 
-.q7--inlineblock .q7__inner {
+.q7--inlineblock .sec {
   font-size: 0;
 }
 
-.q7--inlineblock .q7__box {
+.q7--inlineblock .side {
   display: inline-block;
   box-sizing: border-box;
   margin-left: 50px;
@@ -56,20 +56,20 @@
   font-size: 16px;
 }
 
-.q7--inlineblock .q7__box:first-child {
+.q7--inlineblock .side:first-child {
   margin-left: 0;
 }
 
 
 /* Q7-4 flexでの横並び */
 
-.q7--flex .q7__inner {
+.q7--flex .sec {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.q7--flex .q7__box {
+.q7--flex .side {
   box-sizing: border-box;
   font-size: 16px;
 }
@@ -77,11 +77,11 @@
 
 /* Q7-5 inline-blockとmarginでの横並び */
 
-.q7--margin .q7__box {
+.q7--margin .left {
   vertical-align: top;
 }
 
-.q7--margin .q7__box .q7__box__text {
+.q7--margin .dummy {
   font-size: 16px;
 }
 
